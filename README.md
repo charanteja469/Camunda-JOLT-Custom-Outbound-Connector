@@ -1,4 +1,4 @@
-###JOLT
+### JOLT
 
 JOLT stands for JSON-to-JSON Transformation. Its primary purpose is to reshape, filter, and modify JSON data structures
 1.provides a set of transforms, that can be "chained" together to form the overall JSON to JSON transform.
@@ -6,7 +6,7 @@ JOLT stands for JSON-to-JSON Transformation. Its primary purpose is to reshape, 
 3.JOLT is widely used in data processing environments, particularly within Apache NiFi, where it functions as a powerful processor for manipulating JSON flow files. It's also used for transforming data from various sources like ElasticSearch, MongoDB, and Cassandra.
 4.Extracting data from a large JSON document for your own consumption.
 
-###Camunda 8 JOLT Outbound Connector
+### Camunda 8 JOLT Outbound Connector
 Camunda 8 JOLT Connector is a custom-built connector (developed using the Camunda Connector SDK, typically in Java) that leverages JOLT transformations as a core part of its functionality and streamlines integrations where JSON data re-structuring is a recurring requirement, offering a powerful and flexible solution by combining Camunda's connector extensibility with JOLT's transformation capabilities
 
 ### Test with SaaS
