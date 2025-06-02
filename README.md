@@ -63,7 +63,7 @@ JOLT stands for JSON-to-JSON Transformation. Its primary purpose is to reshape, 
 
 ![image](https://github.com/user-attachments/assets/476c00c5-1bb1-491a-8b51-489d709a4861)
 
-input json:
+#### Input json:
 
 {
   "customerID": "CUST1316834",
@@ -89,7 +89,7 @@ input json:
 
 ![image](https://github.com/user-attachments/assets/c9a11612-c006-4052-9c3b-3676780f9071)
 
-JSON Specification:
+#### JSON Specification:
 
 [
   {
@@ -129,7 +129,7 @@ JSON Specification:
 
 ![image](https://github.com/user-attachments/assets/2eb27b2f-5c9c-41a1-8b99-1baefeaae065)
 
-Result Expression : 
+#### Result Expression : 
 
 {"Transformed":myProperty}
 
@@ -151,11 +151,15 @@ Result Expression :
  ![image](https://github.com/user-attachments/assets/a23632b0-c96c-46db-a588-ad32420faa09)
 
 
- Transformed Output:
+#### Transformed Output:
 
  	
 {"customer":{"fullName":" ","contact":{"email":"charan.teja@example.com","phone":"9876543210"},"id":"CUST1316834","address":{"street":"123 Main St","city":"Anytown","postalCode":"12345"},"account":{"number":"ACC987654321","type":"Savings"}}}
 
+
+## Refer Camunda BPMN File
+
+you can refer the Camunda BPMN file here https://github.com/charanteja469/Camunda-JOLT-Custom-Outbound-Connector/blob/master/JOLT_Connector.bpmn
 
  
 
