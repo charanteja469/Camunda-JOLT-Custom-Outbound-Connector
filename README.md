@@ -35,7 +35,11 @@ JOLT stands for JSON-to-JSON Transformation. Its primary purpose is to reshape, 
 1. Set up the Camunda 8 Self-Managed(https://docs.camunda.io/docs/self-managed/setup/deploy/local/docker-compose/).
 2. Cluster endpoint is http://localhost:26500
 3. uncomment the properties in test resource folder
-4. download desktop modeler if requires (https://camunda.com/download/modeler/)
+
+   (camunda.client.zeebe.grpc-address=http://localhost:26500)
+   
+   (camunda.client.zeebe.rest-address=http://localhost:8088)
+5. download desktop modeler if requires (https://camunda.com/download/modeler/)
 
 
 ### Launching Your Connector
