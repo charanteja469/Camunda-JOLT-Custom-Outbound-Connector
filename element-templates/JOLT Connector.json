@@ -1,0 +1,138 @@
+{
+  "$schema": "https://unpkg.com/@camunda/zeebe-element-templates-json-schema/resources/schema.json",
+  "name": "JOLT Connector",
+  "id": "349377b0-b54d-494c-812b-60396960d0f7",
+  "version": 1748799612382,
+  "description": "Camunda 8 Jolt Custom Connector uses the JOLT library for dynamic JSON data transformations.",
+  "icon": {
+    "contents": "data:image/png;base64,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"
+  },
+  "appliesTo": [
+    "bpmn:Task"
+  ],
+  "elementType": {
+    "value": "bpmn:ServiceTask"
+  },
+  "category": {
+    "id": "connectors",
+    "name": "Connectors"
+  },
+  "groups": [
+    {
+      "id": "compose",
+      "label": "Jolt Transformation"
+    },
+    {
+      "id": "output",
+      "label": "Output mapping"
+    },
+    {
+      "id": "error",
+      "label": "Error handling"
+    },
+    {
+      "id": "retries",
+      "label": "Retries"
+    }
+  ],
+  "properties": [
+    {
+      "value": "io.camunda:template:1",
+      "binding": {
+        "property": "type",
+        "type": "zeebe:taskDefinition"
+      },
+      "type": "Hidden"
+    },
+    {
+      "id": "inputJson",
+      "label": "Json Input",
+      "optional": false,
+      "constraints": {
+        "notEmpty": true
+      },
+      "feel": "required",
+      "group": "compose",
+      "binding": {
+        "name": "inputJson",
+        "type": "zeebe:input"
+      },
+      "type": "Text"
+    },
+    {
+      "id": "joltSpec",
+      "label": "Jolt Spec",
+      "optional": false,
+      "constraints": {
+        "notEmpty": true
+      },
+      "feel": "required",
+      "group": "compose",
+      "binding": {
+        "name": "joltSpec",
+        "type": "zeebe:input"
+      },
+      "type": "Text"
+    },
+    {
+      "id": "resultVariable",
+      "label": "Result variable",
+      "description": "Name of variable to store the response in",
+      "group": "output",
+      "binding": {
+        "key": "resultVariable",
+        "type": "zeebe:taskHeader"
+      },
+      "type": "String"
+    },
+    {
+      "id": "resultExpression",
+      "label": "Result expression",
+      "description": "Expression to map the response into process variables",
+      "feel": "required",
+      "group": "output",
+      "binding": {
+        "key": "resultExpression",
+        "type": "zeebe:taskHeader"
+      },
+      "type": "Text"
+    },
+    {
+      "id": "errorExpression",
+      "label": "Error expression",
+      "description": "Expression to handle errors. Details in the <a href=\"https://docs.camunda.io/docs/components/connectors/use-connectors/\" target=\"_blank\">documentation</a>.",
+      "feel": "required",
+      "group": "error",
+      "binding": {
+        "key": "errorExpression",
+        "type": "zeebe:taskHeader"
+      },
+      "type": "Text"
+    },
+    {
+      "id": "retryCount",
+      "label": "Retries",
+      "description": "Number of retries",
+      "value": "3",
+      "feel": "optional",
+      "group": "retries",
+      "binding": {
+        "property": "retries",
+        "type": "zeebe:taskDefinition"
+      },
+      "type": "String"
+    },
+    {
+      "id": "retryBackoff",
+      "label": "Retry backoff",
+      "description": "ISO-8601 duration to wait between retries",
+      "value": "PT0S",
+      "group": "retries",
+      "binding": {
+        "key": "retryBackoff",
+        "type": "zeebe:taskHeader"
+      },
+      "type": "String"
+    }
+  ]
+}
