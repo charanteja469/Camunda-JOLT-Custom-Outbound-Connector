@@ -17,6 +17,8 @@ JOLT stands for JSON-to-JSON Transformation. Its primary purpose is to reshape, 
    MongoDB, and Cassandra.
 4. Extracting data from a large JSON document for your own consumption.
 
+   you can check the JOLT here https://jolt-demo.appspot.com/
+
 ## Test with SaaS and Self-Managed
 
 #### Setting Up the Saas Environment:
@@ -141,12 +143,18 @@ Result Expression :
 ![image](https://github.com/user-attachments/assets/fb90d6b3-b817-4089-96f3-b3588164f1df)
 
 
-8. The Connector executed sucessfully. Now check the JOLT Transformed in the operate and also notice the message in the 
+8. The Connector executed sucessfully. Now check the JOLT Transformed output in the operate and also notice the message in the 
    Connector springboot project
 
  ![image](https://github.com/user-attachments/assets/27f4154f-1748-4526-bde4-f9fa668de20f)
 
  ![image](https://github.com/user-attachments/assets/a23632b0-c96c-46db-a588-ad32420faa09)
+
+
+ Transformed Output:
+
+ 	
+{"customer":{"fullName":" ","contact":{"email":"charan.teja@example.com","phone":"9876543210"},"id":"CUST1316834","address":{"street":"123 Main St","city":"Anytown","postalCode":"12345"},"account":{"number":"ACC987654321","type":"Savings"}}}
 
 
  
